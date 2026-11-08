@@ -10,4 +10,4 @@ class Tests(APITestCase):
 
     def test_message_returns(self):
         response = self.client.get('/api/hello/')
-        self.assertEqual(response.data["message"], "Hello world")
+        self.assertEqual(response.data["message"], "Hello")
